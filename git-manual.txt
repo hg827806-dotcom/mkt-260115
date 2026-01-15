@@ -1,0 +1,40 @@
+# git 사용방법
+1) 로컬컴퓨터 (여러분 컴퓨터) : git 응용프로그램 설치
+2) 터미널 : git -v 명령어
+  - 검색바 > cmd > 클릭 : 검정색
+3) 만약 git이 없다면 > 구글 크롬 > git 다운로드 후 설치 > Standalone Installer Git for Windows/x64 Setup. (다운)
+- chocolatey > community > find packages : 대리로 응용프로그램 다운로드 후 설치해주는 중간 프로그램
+
+4) 깃의 소유주 확인 & 변경
+  - 터미널 > git config --list
+
+5) github 회원가입 : 계정정보 값으로 입력
+  - git : 나의 로컬 컴퓨터에서 버전 관리 툴
+  - github : 나의 로컬컴퓨터에서 관리하고 있는 버전을 타인과 공유해서 함께 사용하고자 할 때, 혹은 내가 사용하고 있는 디바이스가 2대 이상인 경우, A에서도 데이터 관리, B에서도 데이이터를 관리하고자 할 때
+  - repository > g
+
+
+# 진행 루트
+
+0)검색바 > cmd > 클릭 : 검정색
+1) 터미널 : git -v 명령어
+2) github 회원가입 / create repository (기입)
+3) 터미널
+4) git config --list
+5) user.email : hg827806@gmail.com / user.name: hg827806-dotcom 변경하기 (최초로 자기가 가입한 것) 
+6) 소유주에 대한 정보 바꾸는 법
+ - 일단 터미널 나갔다 다시 들어오기 (재접속 시 관리자 모드로 접속하기 : 전역(글로벌) 세팅을 위해)
+ - git config --global user.name "hg827806-dotcom"
+ - git config --global user.email "hg827806@gmail.com"
+7) 다시 터미널로 돌아오기
+8) cd "현재 나의 루트폴더" 이동
+ - cd C:\Users\user\dataclass_weekday
+9) git 초기화하기
+ - git init
+10) staging area : 대이터 전송
+ - git add . 
+ - 데이터 tracking : git status (잘 추적하고 있는지 확인)
+
+
+
+7) git commit & push
