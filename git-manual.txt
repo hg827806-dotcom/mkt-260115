@@ -34,7 +34,28 @@
 10) staging area : 대이터 전송
  - git add . 
  - 데이터 tracking : git status (잘 추적하고 있는지 확인)
+ - 데이터 labeling : git commit -m "260115" (이름 붙이기)
+ - 원격 (웹) git hub : git remote add origin (레포지토리 주소)
+   : git remote add origin https://github.com/hg827806-dotcom/mkt-260115.git
+ - 로컬(git) & 원격(github) 연결 : git remote -v
+ - 로컬 -> 원격으로 데이터 푸쉬 : git push origin master
+
+11) git clone & pull
+ - 당연히 집 컵퓨터 git 설치 완
+ - 집 도착 > 컴퓨터 : 문서 - 새로운 폴더 (home-pc)
+ - 새로운 폴더 주소 복사
+ - 터미널에 cd -> 뒤에 폴더 주소 붙어넣기 후 엔터
+ - 이제부터 새로운 폴더가 root 폴더가 됨
+ - 해당 루트 폴더 : git clone
+   * git clone https://github.com/hg827806-dotcom/mkt-260115 (깃허브 파일들어간 루트의 주소)
+ - 집에서 학원파일을 오픈해서 추가로 내용 업데이트 > 다시 내 레포지토리 푸쉬
+ - git add . 해당 명령어부터 시작
+
+12) git fork 
+ - http://github.com/Divjason/mkt 들어가서 -> 포크해가기
+
+13) 수동으로 다운법
+ - 10번에서 -> code  수동으로 다운받기
 
 
 
-7) git commit & push
